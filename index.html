@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color changing prject</title>
+</head>
+<style>
+    html{
+        margin: 0;
+    }
+    .canvas{
+        margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+    }
+    .button{
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+        margin: 10px;
+    }
+    span{
+        display: block;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        /* justify-content:space-around; */
+    }
+    #gray{
+        background-color: gray;
+    }
+    #white{
+        background-color: white;
+    }
+    #blue{
+        background-color: blue;
+    }
+    #yellow{
+        background-color: yellow;
+    }
+
+</style>
+<body>
+    <div class="canvas">
+        <h1>Color Scheme Switcher</h1>
+        <div class="container">
+            <span id="gray" class="button"></span>
+            <span id="white" class="button"></span>
+            <span id="blue" class="button"></span>
+            <span id="yellow" class="button"></span>
+            
+        </div>
+        <h1> Try clicking on one of the colors above
+            <span>to change the background color</span></h1>
+    </div>
+
+    <script src="01.js"></script>
+</body>
+</html>
